@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(#0047ff -13.37%, #00bcd4 109.53%);
+  position: fixed;
+  width: 1732px;
+  height: 37px;
+}
+
+p {
+  height: 28px;
+  width: 553px;
+  left: 590px;
+  top: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  color: #000000;
+  width: 553px;
+  height: 28px;
+  left: calc(50% x / 2 + 0.5px);
+  top: 5px;- 553p
+}
+.container{
+  height: 67px;
+  width: 1732px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.solana-logo {
+  /* width: 181.69px;
+  height: 27px; */
+  float: left;
+}
+
+nav {
+  margin-top: 36px;
+  /* position: absolute;  */
+  float: right;
+}
+
+nav ul{
+ margin: 0;
+ padding: 0;
+ list-style: none; 
+}
+
+nav li{
+   display: inline-block;
+}
+
+nav a {
+  color: rgba(132, 136, 149, 1);
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.activeBtn {
+  color: rgba(230, 230, 230, 1);
+  font-weight: 700;
+}
