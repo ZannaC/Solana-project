@@ -22,7 +22,16 @@ header {
   text-transform: uppercase;
 }
 
+/* nav a image {
+  width: 14.01px;
+  height: 8.01px;
+  border-color: blue;
+} */
 
+/* .navbar {
+  /* margin-top: 36px; */
+/* width: 1732px;
+} */
 
 .solana-logo {
   display: flex;
@@ -30,7 +39,7 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   padding-top: 59px;
-  
+  /* margin-top: 36px; */
 }
 
 .btn {
@@ -38,7 +47,7 @@ header {
   margin-left: 981px;
   flex-direction: row;
   justify-content: space-between;
-  
+  /* padding: 0px 35px; */
 }
 
 nav a {
@@ -94,7 +103,14 @@ article h3 {
   margin: 19px 324px;
 }
 
-
+/* .developer-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 24px;
+} */
 
 article ul {
   margin: 0;
@@ -161,3 +177,30 @@ article a {
 .solana-images {
   float: right;
 }
+
+/* .container {
+  background-color: blue;
+  width: 1000px;
+  height: 500px;
+}
+.frog {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+nav a image {
+  width: 14.01px;
+  height: 8.01px;
+  border-color: blue;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 35px;
+} */
