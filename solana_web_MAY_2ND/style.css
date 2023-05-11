@@ -5,11 +5,11 @@
 }
 
 /* nav,
-  footer,
-  header,
-  aside {
-    display: block;
-  } */
+footer,
+header,
+aside {
+  display: block;
+} */
 
 ul li {
   list-style: none;
@@ -34,6 +34,76 @@ a {
 
 .content {
   flex: 1 1 auto;
+}
+
+/* .header {
+  background: linear-gradient(#0047ff -13.37%, #00bcd4 109.53%);
+} */
+
+.header_row {
+  height: 37px;
+}
+
+.header_content {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(#0047ff -13.37%, #00bcd4 109.53%);
+  height: 37px;
+  line-height: 37px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 630px;
+}
+
+.nav {
+  background: #1e1e1e;
+}
+
+.nav__row {
+  display: flex;
+  height: 67px;
+  justify-content: flex-start;
+}
+
+.nav_solana_image {
+  margin: 22px 0px 0px 8.48px;
+}
+
+.navigation__bar {
+  margin: 19px 0px 0px 475.79px;
+}
+
+.navigation__bar a {
+  color: rgba(132, 136, 149, 1);
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 17px;
+  list-style: none;
+  text-decoration: none;
+  margin: 18.5px;
+}
+
+#actBtn {
+  color: rgba(230, 230, 230, 1);
+  font-family: "Helvetica";
+  font-weight: 700px;
+  font-size: 17px;
+}
+
+.navigation__bar img.vector {
+  width: 14.01px;
+  height: 8.01px;
+}
+
+.navigation__bar a img {
+  margin-left: 5px;
 }
 
 .developer {
@@ -152,4 +222,117 @@ a {
   height: 678px;
   margin-top: -33px;
   margin-left: -400px;
+}
+
+.footer {
+  background-color: #1e1e1e;
+}
+
+.footer__row {
+  display: flex;
+  height: 383px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer li,
+.footer li a {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer li {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+}
+
+.footer a {
+  color: rgba(132, 136, 149, 1);
+  font-size: 15px;
+}
+
+.footer__info li text {
+  color: rgba(132, 136, 149, 1);
+  font-size: 16px;
+}
+
+li.footer_title1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+li.all_rights_res {
+  color: rgba(132, 136, 149, 1);
+  font-family: "Helvetica";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__info img.icon {
+  border: 26px 16px;
+  background-color: rgba(132, 136, 149, 1);
+  width: 26px;
+  height: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+
+#Reddit {
+  border-radius: 27%;
+}
+
+.footer__info {
+  margin: 81.06px 0px 0px 7.52px;
+}
+
+.footer__info li {
+  margin: 24px;
+}
+
+.footer__info li a {
+  margin: 5px;
+}
+
+.footer__possibilities {
+  display: flex;
+  height: 283px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.footer__possibilities ul {
+  margin: 34px;
+}
+
+.footer__possibilities li {
+  margin-top: 11px;
+}
+
+.footer__possibilities li:first-child {
+  margin: 0;
+}
+
+.footer__language__selection img.icon {
+  width: 19px;
+  height: 19.38px;
+}
+
+.footer__language__selection ul li a {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__language__selection ul li img {
+  margin-right: 4px;
+}
+
+.footer__language__selection a text {
+  font-size: 16px;
+  font-weight: 400;
 }
