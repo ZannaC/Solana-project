@@ -106,14 +106,15 @@ a {
   margin-left: 5px;
 }
 
-.developer {
+.developer,
+.development_course_section {
   background-color: #1e1e1e;
 }
 
 .developer__row {
   display: flex;
   justify-content: space-between;
-  height: 821.41px;
+  height: 755.41px;
 }
 
 .developer_content h1 {
@@ -222,6 +223,214 @@ a {
   height: 678px;
   margin-top: -33px;
   margin-left: -400px;
+}
+
+.development_course_row {
+  display: flex;
+  justify-content: flex-start;
+  height: 394px;
+}
+
+.development_course_info {
+  width: 1084.97px;
+  height: 370px;
+  border-radius: 18px;
+}
+
+.development_course_info {
+  background-image: url("images/development_course_images/development_course_image.svg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.development_course_info h2 {
+  display: inline-block;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 39px;
+  color: #ffffff;
+  width: 504.02px;
+}
+
+.development_course_info h4 {
+  display: inline-block;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 21px;
+  color: #c4c4c4;
+  width: 387.63px;
+}
+
+.development_course_info h5,
+.offer_position1 h5 {
+  display: inline-block;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.development_course_info ul {
+  margin-top: 83px;
+  margin-left: 88.77px;
+}
+
+.btn_chapters a,
+.btn_chapters text {
+  display: inline-block;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.development_course_info h2 {
+  padding-top: 17px;
+}
+
+.btn_chapters p {
+  padding-bottom: 12px;
+}
+
+.btn_chapters {
+  box-sizing: border-box;
+  width: 85.81px;
+  height: 18px;
+  background-color: #9945ff;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.btn_arrow {
+  min-width: 25px;
+  min-height: 25px;
+  color: rgba(132, 136, 149, 1);
+}
+
+.development_course_info .btn_arrow {
+  padding-top: 49.5px;
+}
+
+.arrow .dev_text1 {
+  padding-top: 16px;
+}
+
+.dev_text2 {
+  box-sizing: border-box;
+  width: 387.63px;
+  height: 54px;
+  padding-top: 31px;
+  line-height: 27px;
+}
+
+.offer_container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1084.97px;
+  height: 344px;
+}
+
+.offer_container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1084.97px;
+  height: 444px;
+}
+
+.offer_containers_part1,
+.offer_containers_part2 {
+  display: flex;
+  justify-content: space-between;
+  width: 346.2px;
+  height: 320px;
+}
+
+.part1 {
+  background-image: url("images/development_course_images/development_buildspace_image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.part2 {
+  background-image: url("images/development_course_images/development_bytes_image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.part3 {
+  background-image: url("images/development_course_images/development_scaffoldSeries_image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.part4 {
+  background-image: url("images/development_course_images/development_freecodecamp_image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.part5 {
+  background-image: url("images/development_course_images/development_byKnox_image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.part6 {
+  background-image: url("images/development_course_images/development_bootcamp_image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 18px;
+}
+
+.part1,
+.part2,
+.part3,
+.part4,
+.part5,
+.part6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 346.2px;
+  height: 320px;
+}
+
+.part1 .offer_position1,
+.part2 .offer_position1,
+.part3 .offer_position1,
+.part4 .offer_position1,
+.part5 .offer_position1,
+.part6 .offer_position1 {
+  margin-top: 224px;
+  margin-left: 31.56px;
+}
+
+.offer_position1 h5 {
+  padding-top: 12px;
+}
+
+.part1 .offer_position2,
+.part2 .offer_position2,
+.part3 .offer_position2,
+.part4 .offer_position2,
+.part5 .offer_position2,
+.part6 .offer_position2 {
+  margin-top: 252.5px;
+  margin-right: 21.4px;
 }
 
 .footer {
