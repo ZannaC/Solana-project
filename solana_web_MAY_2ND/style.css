@@ -244,21 +244,28 @@ a {
   background-repeat: no-repeat;
 }
 
-.development_course_info h2 {
+.development_course_info h2,
+.dig_deeper_section h2 {
   display: inline-block;
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 39px;
   color: #ffffff;
+}
+.development_course_info h2 {
   width: 504.02px;
 }
 
-.development_course_info h4 {
+.development_course_info h4,
+.dig_deeper_section h4 {
   display: inline-block;
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 21px;
   color: #c4c4c4;
+}
+
+.development_course_info h4 {
   width: 387.63px;
 }
 
@@ -431,6 +438,88 @@ a {
 .part6 .offer_position2 {
   margin-top: 252.5px;
   margin-right: 21.4px;
+}
+
+.dig_deeper_section {
+  font-family: "Helvetica";
+  font-weight: 400;
+  background-color: #1e1e1e;
+}
+
+.dig_deeper_row {
+  display: flex;
+  width: 1084.97px;
+  height: 1099px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.dig_deeper_row h4 {
+  margin-bottom: 32px;
+}
+
+.dig_deeper_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dig_deeper_info_block {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 346.2px;
+  height: 282px;
+  padding-top: 31px;
+  padding-left: 31.56px;
+  color: rgba(25, 22, 28, 1);
+  background: #19161c;
+  border-radius: 12px;
+}
+
+.dig_deeper_info_block h6 {
+  font-size: 12px;
+  color: rgba(153, 69, 255, 1);
+  /* width: 113px;
+  height: 20px; */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+.dig_deeper_info_block_theme {
+  font-size: 19px;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 14px;
+}
+
+.dig_deeper_info_block_info {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 48px;
+}
+
+.dig_deeper_learn-more {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding-bottom: 34px;
+}
+
+.btn_arrow45 {
+  color: rgba(132, 136, 149, 1);
+  rotate: 45;
+  padding-left: 14.13px;
+}
+
+.btn_arrow45 img {
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  vertical-align: bottom;
 }
 
 .footer {
