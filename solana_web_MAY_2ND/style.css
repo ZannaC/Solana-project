@@ -461,8 +461,10 @@ a {
 .dig_deeper_container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* align-content: */
+  justify-content: flex-start;
   flex-wrap: wrap;
+  column-gap: 23px;
 }
 
 .dig_deeper_info_block {
@@ -474,6 +476,8 @@ a {
   height: 282px;
   padding-top: 31px;
   padding-left: 31.56px;
+  padding-right: 53px;
+  padding-bottom: 34px;
   color: rgba(25, 22, 28, 1);
   background: #19161c;
   border-radius: 12px;
@@ -507,7 +511,7 @@ a {
   color: rgba(255, 255, 255, 1);
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  padding-bottom: 34px;
+  /* padding-bottom: 34px; */
 }
 
 .btn_arrow45 {
