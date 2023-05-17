@@ -560,7 +560,7 @@ h4 {
 }
 
 .source_info_row h4,
-.source_section_docs_info h4 {
+.docs_info h4 {
   display: inline-block;
   font-size: 20px;
 }
@@ -569,7 +569,7 @@ h4 {
   display: flex;
   flex-direction: row;
 } */
-.source_section_docs_info {
+.docs_info {
   max-width: 503px;
   /* padding-top: 29.41px; */
 }
