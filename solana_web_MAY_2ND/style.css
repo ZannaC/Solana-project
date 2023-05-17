@@ -619,6 +619,51 @@ h4 {
   /* margin-top: 77px; */
 }
 
+.update_evenMore_container {
+  display: flex;
+  width: 1084.97px;
+  height: 433.59px;
+  padding-top: 127px;
+}
+
+.update_block {
+  justify-content: center;
+  box-sizing: border-box;
+  width: 530.65px;
+  height: 357px;
+  border-radius: 14px;
+  background: rgba(25, 22, 28, 1);
+
+  box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
+  padding: 49px 63.4px 45.6px 54.2px;
+}
+
+.block_title {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 29px;
+}
+
+.block_info {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+  width: 400px;
+  text-align: left;
+  padding-bottom: 76.31px;
+}
+
+.update_btn-block {
+  width: 400.56px;
+  height: 64px;
+  background: rgba(10, 10, 10, 1);
+  border-radius: 800px;
+}
+
 .footer {
   background-color: #1e1e1e;
 }
