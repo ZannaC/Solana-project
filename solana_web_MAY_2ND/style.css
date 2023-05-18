@@ -620,12 +620,17 @@ h4 {
 }
 
 .update_evenMore_section {
+  display: flex;
+  justify-content: center;
   background-color: #1e1e1e;
+  max-width: 1255.66px;
+  /* margin: 0px auto; */
 }
 
 .update_evenMore_container {
   display: flex;
   justify-content: space-between;
+
   width: 1084.97px;
   height: 433.59px;
   padding-top: 127px;
@@ -712,8 +717,35 @@ h4 {
   justify-content: space-between;
 }
 
-.youtube_btn,
+.youtube_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 189.38px;
+  height: 44px;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+}
+
+.btn_youtube {
+  /* box-sizing: border-box;
+  width: 24.7px;
+  height: 17.34px;
+  background: #ED1D24; */
+}
+
 .podcast_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
   width: 189.38px;
   height: 44px;
   border: 1px solid #ffffff;
