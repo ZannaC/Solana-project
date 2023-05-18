@@ -619,8 +619,13 @@ h4 {
   /* margin-top: 77px; */
 }
 
+.update_evenMore_section {
+  background-color: #1e1e1e;
+}
+
 .update_evenMore_container {
   display: flex;
+  justify-content: space-between;
   width: 1084.97px;
   height: 433.59px;
   padding-top: 127px;
@@ -638,6 +643,18 @@ h4 {
   padding: 49px 63.4px 45.6px 54.2px;
 }
 
+.evenMore_block {
+  justify-content: center;
+  box-sizing: border-box;
+  width: 530.65px;
+  height: 357px;
+  border-radius: 14px;
+  background: rgba(25, 22, 28, 1);
+
+  box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
+  padding: 49px 64.95px 53.69px 54.2px;
+}
+
 .block_title {
   font-family: "Helvetica";
   font-weight: 400;
@@ -647,21 +664,74 @@ h4 {
   padding-bottom: 29px;
 }
 
+.block_title,
+.evenMore_block_title {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 29px;
+}
+
 .block_info {
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 17px;
-  color: #ffffff;
+  line-height: 27.3px;
+  color: #c4c4c4;
   width: 400px;
   text-align: left;
   padding-bottom: 76.31px;
 }
 
-.update_btn-block {
+.evenMore_block_info {
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.3px;
+  color: #c4c4c4;
+  width: 400px;
+  text-align: left;
+  padding-bottom: 61.31px;
+}
+
+.update_btn-block,
+.evenMore_btn-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 400.56px;
   height: 64px;
   background: rgba(10, 10, 10, 1);
   border-radius: 800px;
+}
+
+.evenMore_btn-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.youtube_btn,
+.podcast_btn {
+  width: 189.38px;
+  height: 44px;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+}
+
+.signUp_btn {
+  display: flex;
+  width: 103.56px;
+  height: 46px;
+  background: #14f195;
+  border: 1px solid #000000;
+  border-radius: 800px;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
