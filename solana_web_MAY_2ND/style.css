@@ -564,14 +564,9 @@ h4 {
   display: inline-block;
   font-size: 20px;
 }
-/* 
-#source_container {
-  display: flex;
-  flex-direction: row;
-} */
+
 .docs_info {
   max-width: 503px;
-  /* padding-top: 29.41px; */
 }
 
 .source_title_btn {
@@ -580,10 +575,8 @@ h4 {
   justify-content: space-between;
   align-items: center;
   width: 522.76px;
-  /* row-gap: 192.81; */
 }
 .source_section_docs_title {
-  /* display: inline-block; */
   font-size: 32px;
   padding-top: 50px;
   padding-bottom: 40.59px;
@@ -596,8 +589,6 @@ h4 {
   align-items: center;
   text-align: center;
   font-size: 15px;
-  /* padding-top: 48px;
-  padding-bottom: 30.59px; */
   box-sizing: border-box;
   border: 1px solid #ffffff;
   width: 147.95px;
@@ -616,51 +607,47 @@ h4 {
   width: 522.76px;
   height: 1px;
   padding-bottom: c29.41px;
-  /* margin-top: 77px; */
 }
 
-.update_evenMore_section {
-  display: flex;
-  justify-content: center;
+.update-evenMore-section {
   background-color: #1e1e1e;
-  max-width: 1255.66px;
-  /* margin: 0px auto; */
-}
-
-.update_evenMore_container {
   display: flex;
   justify-content: space-between;
-
-  width: 1084.97px;
-  height: 433.59px;
+  height: 560.59px;
   padding-top: 127px;
+  padding-left: 323.52;
 }
 
-.update_block {
+.update-evenMore-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1084.97px;
+  height: 357px;
+}
+
+.update-block {
   justify-content: center;
   box-sizing: border-box;
   width: 530.65px;
   height: 357px;
   border-radius: 14px;
   background: rgba(25, 22, 28, 1);
-
   box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
   padding: 49px 63.4px 45.6px 54.2px;
 }
 
-.evenMore_block {
+.evenMore-block {
   justify-content: center;
   box-sizing: border-box;
   width: 530.65px;
   height: 357px;
   border-radius: 14px;
   background: rgba(25, 22, 28, 1);
-
   box-shadow: 0px 58px 80px rgba(0, 0, 0, 0.16);
   padding: 49px 64.95px 53.69px 54.2px;
 }
 
-.block_title {
+.block-title {
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 36px;
@@ -669,8 +656,7 @@ h4 {
   padding-bottom: 29px;
 }
 
-.block_title,
-.evenMore_block_title {
+.evenMore-block-title {
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 35px;
@@ -679,7 +665,7 @@ h4 {
   padding-bottom: 29px;
 }
 
-.block_info {
+.block-info {
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 17px;
@@ -690,7 +676,7 @@ h4 {
   padding-bottom: 76.31px;
 }
 
-.evenMore_block_info {
+.evenMore-block-info {
   font-family: "Helvetica";
   font-weight: 400;
   font-size: 18px;
@@ -701,8 +687,7 @@ h4 {
   padding-bottom: 61.31px;
 }
 
-.update_btn-block,
-.evenMore_btn-block {
+.update-btn-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -710,14 +695,45 @@ h4 {
   height: 64px;
   background: rgba(10, 10, 10, 1);
   border-radius: 800px;
+  padding: 9px 10px;
 }
 
-.evenMore_btn-block {
+.evenMore-btn-block {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.youtube_btn {
+.email-text {
+  display: flex;
+  box-sizing: border-box;
+  width: 61px;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: rgba(132, 136, 149, 1);
+  justify-content: center;
+}
+
+.signUp-btn a {
+  display: flex;
+  box-sizing: border-box;
+  width: 103.56px;
+  height: 46px;
+  background: #14f195;
+  border: 1px solid #000000;
+  border-radius: 800px;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -731,14 +747,12 @@ h4 {
   border-radius: 24px;
 }
 
-.btn_youtube {
-  /* box-sizing: border-box;
-  width: 24.7px;
-  height: 17.34px;
-  background: #ED1D24; */
+.image-youtube {
+  display: flex;
+  padding-left: 8.65px;
 }
 
-.podcast_btn {
+.podcast-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -752,18 +766,9 @@ h4 {
   border-radius: 24px;
 }
 
-.signUp_btn {
+.image-podcast {
   display: flex;
-  width: 103.56px;
-  height: 46px;
-  background: #14f195;
-  border: 1px solid #000000;
-  border-radius: 800px;
-  font-family: Roboto;
-  font-size: 15px;
-  line-height: 20px;
-  justify-content: center;
-  align-items: center;
+  padding-left: 11.9px;
 }
 
 .footer {
