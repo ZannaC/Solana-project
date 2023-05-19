@@ -35,32 +35,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
   infoData.forEach(function (data) {
     var infoBlock = document.createElement("div");
-    infoBlock.classList.add("dig_deeper_info_block");
+    infoBlock.classList.add("dig-deeper-info-block");
 
     var libraryElement = document.createElement("h6");
     libraryElement.classList.add("library");
     libraryElement.textContent = "tool / library";
 
     var themeElement = document.createElement("div");
-    themeElement.classList.add("dig_deeper_info_block_theme");
+    themeElement.classList.add("dig-deeper-info-block-theme");
     themeElement.textContent = data.theme;
 
     var infoElement = document.createElement("div");
-    infoElement.classList.add("dig_deeper_info_block_info");
+    infoElement.classList.add("dig-deeper-info-block-info");
     infoElement.textContent = data.info;
 
     var learnElement = document.createElement("div");
-    learnElement.classList.add("dig_deeper_learn-more");
+    learnElement.classList.add("dig-deeper-learn-more");
     learnElement.textContent = "Learn more";
 
     var btnLinkElement = document.createElement("a");
-    btnLinkElement.classList.add("btn_arrow45");
+    btnLinkElement.classList.add("btn-arrow45");
     btnLinkElement.href = "#";
 
     var btnImageElement = document.createElement("img");
-    btnLinkElement.classList.add("btn_arrow45_image");
+    btnLinkElement.classList.add("btn-arrow45-image");
 
-    btnImageElement.src = "images/dig_deeper_image/arrow45.svg";
+    btnImageElement.src = "images/dig-deeper-image/arrow45.svg";
 
     learnElement.appendChild(btnImageElement);
     infoBlock.appendChild(libraryElement);
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var sourceContainer = document.getElementById("source_container");
+  var sourceContainer = document.getElementById("source-container");
   var sourceData = [
     {
       title: "Metaplex Docs",
@@ -83,40 +83,40 @@ document.addEventListener("DOMContentLoaded", function () {
 
   sourceData.forEach(function (data) {
     var sourceSection = document.createElement("div");
-    sourceSection.classList.add("source_section_docs");
+    sourceSection.classList.add("source-section-docs");
 
     var titleBtn = document.createElement("div");
-    titleBtn.classList.add("source_title_btn");
+    titleBtn.classList.add("source-title-btn");
 
     var docsTitle = document.createElement("div");
-    docsTitle.classList.add("source_section_docs_title");
+    docsTitle.classList.add("source-section-docs-title");
     docsTitle.textContent = data.title;
 
     var docsViewAll = document.createElement("div");
-    docsViewAll.classList.add("source_section_docs_view_all");
+    docsViewAll.classList.add("source-section-docs-view-all");
     docsViewAll.textContent = "View all";
 
     var sourceBtnLink = document.createElement("a");
-    sourceBtnLink.classList.add("btn_arrow45");
+    sourceBtnLink.classList.add("btn-arrow45");
     sourceBtnLink.href = "#";
 
     var sourceBtnImage = document.createElement("img");
-    sourceBtnImage.classList.add("btn_arrow45_source");
-    sourceBtnImage.src = "images/dig_deeper_image/arrow45.svg";
+    sourceBtnImage.classList.add("btn-arrow45-source");
+    sourceBtnImage.src = "images/dig-deeper-image/arrow45.svg";
 
     var docsLine = document.createElement("div");
-    docsLine.classList.add("source_section_docs_line");
+    docsLine.classList.add("source-section-docs-line");
     docsLine.textContent = data.theme;
 
     var rectangleImage = document.createElement("img");
-    rectangleImage.classList.add("rectangle_image");
-    rectangleImage.src = "images/source_section_image/Rectangle.svg";
+    rectangleImage.classList.add("rectangle-image");
+    rectangleImage.src = "images/source-section-image/Rectangle.svg";
 
     var sourceDocsInfo = document.createElement("div");
-    sourceDocsInfo.classList.add("source_section_docs_info");
+    sourceDocsInfo.classList.add("source-section-docs-info");
 
     var docsInfo = document.createElement("h4");
-    docsInfo.classList.add("docs_info");
+    docsInfo.classList.add("docs-info");
     docsInfo.textContent = data.info;
 
     docsLine.appendChild(rectangleImage);
