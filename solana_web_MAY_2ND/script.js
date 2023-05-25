@@ -4,6 +4,11 @@ document.addEventListener("DOMContentLoaded", function () {
   var container = document.getElementById("container");
   var infoData = [
     {
+      theme: "Core Documentation",
+      info: "The official Solana documentation on developing, validators, SPL tokens, wallets and more.",
+    },
+
+    {
       theme: "Solana Cookbook",
       info: "The Solana Cookbook is a developer resource that provides the essential concepts and references for building applications on Solana.",
     },
