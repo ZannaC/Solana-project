@@ -141,6 +141,10 @@ a {
   margin-bottom: 39.59px;
 }
 
+.developer-btn {
+  margin-top: 39.59px;
+}
+
 .developer-btn a {
   font-family: Roboto;
   font-size: 15px;
@@ -148,6 +152,7 @@ a {
   text-align: center;
   text-decoration: none;
   margin-right: 8px;
+  margin-top: 39.59px;
 }
 
 .btn-build {
@@ -197,32 +202,34 @@ a {
   font-weight: 400;
   font-size: 20px;
   color: #c4c4c4;
-  padding-top: 3px;
+  padding-top: 19px;
   height: 28px;
   width: 924.19px;
 }
 .developer-image {
   display: flex;
-
-  /* justify-content: flex-start;
-  align-items: flex-start; */
 }
 
-.solana-rectangle img {
+.solana-rectangle {
+  border-color: #14f195;
   box-sizing: border-box;
   width: 633.23px;
   height: 642px;
   border-radius: 100px;
+  background: rgba(240, 135, 255, 0.3);
+  margin-left: -520.5px;
+  filter: blur(250px);
   margin-top: 72.41px;
-  margin-left: -500.48px;
 }
 
-.solana-image img {
+.solana-image {
+  background-image: url("images/developer-section-images/developerImage.png");
+  background-size: 100%;
   box-sizing: border-box;
   width: 636.18px;
   height: 678px;
-  /* margin-top: -33px;
-  margin-left: -400px; */
+  margin-top: -33px;
+  margin-left: -500px;
 }
 
 .development-course-row {
@@ -775,6 +782,7 @@ h4 {
 .footer-row {
   display: flex;
   height: 383px;
+  width: 1084.97px;
   justify-content: space-between;
   align-items: flex-start;
 }
