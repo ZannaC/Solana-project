@@ -204,8 +204,8 @@ a {
 .developer-image {
   display: flex;
 
-  justify-content: flex-start;
-  align-items: flex-start;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
 }
 
 .solana-rectangle img {
@@ -221,8 +221,8 @@ a {
   box-sizing: border-box;
   width: 636.18px;
   height: 678px;
-  margin-top: -33px;
-  margin-left: -400px;
+  /* margin-top: -33px;
+  margin-left: -400px; */
 }
 
 .development-course-row {
@@ -238,7 +238,7 @@ a {
 }
 
 .development-course-info {
-  background-image: url("images/development-course-images/development-course-image.svg");
+  background-image: url("images/development-course-images/development-course-image.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -356,7 +356,7 @@ a {
 }
 
 .part1 {
-  background-image: url("images/development-course-images/development-buildspace-image.svg");
+  background-image: url("images/development-course-images/development-buildspace-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -364,7 +364,7 @@ a {
 }
 
 .part2 {
-  background-image: url("images/development-course-images/development-bytes-image.svg");
+  background-image: url("images/development-course-images/development-bytes-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -372,7 +372,7 @@ a {
 }
 
 .part3 {
-  background-image: url("images/development-course-images/development-scaffoldSeries-image.svg");
+  background-image: url("images/development-course-images/development-scaffoldSeries-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -380,7 +380,7 @@ a {
 }
 
 .part4 {
-  background-image: url("images/development-course-images/development-freecodecamp-image.svg");
+  background-image: url("images/development-course-images/development-freecodecamp-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -388,7 +388,7 @@ a {
 }
 
 .part5 {
-  background-image: url("images/development-course-images/development-byKnox-image.svg");
+  background-image: url("images/development-course-images/development-byKnox-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -396,7 +396,7 @@ a {
 }
 
 .part6 {
-  background-image: url("images/development-course-images/development-bootcamp-image.svg");
+  background-image: url("images/development-course-images/development-bootcamp-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
