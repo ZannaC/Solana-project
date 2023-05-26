@@ -1,8 +1,12 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function () {
-  var container = document.getElementById("container");
-  var infoData = [
+  const container = document.getElementById("dig-deeper");
+  const infoData = [
+    {
+      theme: "Core Documentation",
+      info: "The official Solana documentation on developing, validators, SPL tokens, wallets and more.",
+    },
     {
       theme: "Core Documentation",
       info: "The official Solana documentation on developing, validators, SPL tokens, wallets and more.",
@@ -39,30 +43,30 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   infoData.forEach(function (data) {
-    var infoBlock = document.createElement("div");
+    const infoBlock = document.createElement("div");
     infoBlock.classList.add("dig-deeper-info-block");
 
-    var libraryElement = document.createElement("h6");
+    const libraryElement = document.createElement("h6");
     libraryElement.classList.add("library");
     libraryElement.textContent = "tool / library";
 
-    var themeElement = document.createElement("div");
+    const themeElement = document.createElement("div");
     themeElement.classList.add("dig-deeper-info-block-theme");
     themeElement.textContent = data.theme;
 
-    var infoElement = document.createElement("div");
+    const infoElement = document.createElement("div");
     infoElement.classList.add("dig-deeper-info-block-info");
     infoElement.textContent = data.info;
 
-    var learnElement = document.createElement("div");
+    const learnElement = document.createElement("div");
     learnElement.classList.add("dig-deeper-learn-more");
     learnElement.textContent = "Learn more";
 
-    var btnLinkElement = document.createElement("a");
+    const btnLinkElement = document.createElement("a");
     btnLinkElement.classList.add("btn-arrow45");
     btnLinkElement.href = "#";
 
-    var btnImageElement = document.createElement("img");
+    const btnImageElement = document.createElement("img");
     btnLinkElement.classList.add("btn-arrow45-image");
 
     btnImageElement.src = "images/dig-deeper-image/arrow45.svg";
@@ -78,59 +82,63 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  var sourceContainer = document.getElementById("source-container");
-  var sourceData = [
+  const sourceContainer = document.getElementById("go-to-the-source-container");
+  const sourceData = [
+    {
+      title: "Solana Docs",
+      info: "Learn how Solana works and get a high-level understanding of Solana's architecture.",
+    },
     {
       title: "Metaplex Docs",
       info: "Learn what you build with Metaplex, make the process of creating and launching NFTs easier.",
     },
   ];
 
-  sourceData.forEach(function (data) {
-    var sourceSection = document.createElement("div");
-    sourceSection.classList.add("source-section-docs");
+  // sourceData.forEach(function (data) {
+  //   const sourceSection = document.createElement("div");
+  //   sourceSection.classList.add("source-section-docs");
 
-    var titleBtn = document.createElement("div");
-    titleBtn.classList.add("source-title-btn");
+  //   const titleBtn = document.createElement("div");
+  //   titleBtn.classList.add("source-title-btn");
 
-    var docsTitle = document.createElement("div");
-    docsTitle.classList.add("source-section-docs-title");
-    docsTitle.textContent = data.title;
+  //   const docsTitle = document.createElement("div");
+  //   docsTitle.classList.add("source-section-docs-title");
+  //   docsTitle.textContent = data.title;
 
-    var docsViewAll = document.createElement("div");
-    docsViewAll.classList.add("source-section-docs-view-all");
-    docsViewAll.textContent = "View all";
+  //   const docsViewAll = document.createElement("div");
+  //   docsViewAll.classList.add("source-section-docs-view-all");
+  //   docsViewAll.textContent = "View all";
 
-    var sourceBtnLink = document.createElement("a");
-    sourceBtnLink.classList.add("btn-arrow45");
-    sourceBtnLink.href = "#";
+  //   const sourceBtnLink = document.createElement("a");
+  //   sourceBtnLink.classList.add("btn-arrow45");
+  //   sourceBtnLink.href = "#";
 
-    var sourceBtnImage = document.createElement("img");
-    sourceBtnImage.classList.add("btn-arrow45-source");
-    sourceBtnImage.src = "images/dig-deeper-image/arrow45.svg";
+  //   const sourceBtnImage = document.createElement("img");
+  //   sourceBtnImage.classList.add("btn-arrow45-source");
+  //   sourceBtnImage.src = "images/dig-deeper-image/arrow45.svg";
 
-    var docsLine = document.createElement("div");
-    docsLine.classList.add("source-section-docs-line");
-    docsLine.textContent = data.theme;
+  //   const docsLine = document.createElement("div");
+  //   docsLine.classList.add("source-section-docs-line");
+  //   docsLine.textContent = data.theme;
 
-    var rectangleImage = document.createElement("img");
-    rectangleImage.classList.add("rectangle-image");
-    rectangleImage.src = "images/source-section-image/Rectangle.svg";
+  //   const rectangleImage = document.createElement("img");
+  //   rectangleImage.classList.add("rectangle-image");
+  //   rectangleImage.src = "images/source-section-image/Rectangle.svg";
 
-    var sourceDocsInfo = document.createElement("div");
-    sourceDocsInfo.classList.add("source-section-docs-info");
+  //   const sourceDocsInfo = document.createElement("div");
+  //   sourceDocsInfo.classList.add("source-section-docs-info");
 
-    var docsInfo = document.createElement("h4");
-    docsInfo.classList.add("docs-info");
-    docsInfo.textContent = data.info;
+  //   const docsInfo = document.createElement("h4");
+  //   docsInfo.classList.add("docs-info");
+  //   docsInfo.textContent = data.info;
 
-    docsLine.appendChild(rectangleImage);
-    docsViewAll.appendChild(sourceBtnImage);
-    sourceSection.appendChild(docsTitle);
-    sourceSection.appendChild(docsViewAll);
-    sourceSection.appendChild(docsLine);
-    sourceSection.appendChild(docsInfo);
+  //   docsLine.appendChild(rectangleImage);
+  //   docsViewAll.appendChild(sourceBtnImage);
+  //   sourceSection.appendChild(docsTitle);
+  //   sourceSection.appendChild(docsViewAll);
+  //   sourceSection.appendChild(docsLine);
+  //   sourceSection.appendChild(docsInfo);
 
-    sourceContainer.appendChild(sourceSection);
-  });
+  //   sourceContainer.appendChild(sourceSection);
+  // });
 });
