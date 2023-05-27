@@ -565,6 +565,7 @@ h4 {
 .docs-info h4 {
   display: inline-block;
   font-size: 20px;
+  padding-top: 3px;
 }
 /* 
 #source-container {
@@ -584,12 +585,18 @@ h4 {
   width: 522.76px;
   /* row-gap: 192.81; */
 }
+
+.source-section-docs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .source-section-docs-title {
   /* display: inline-block; */
   font-size: 32px;
   padding-top: 50px;
   padding-bottom: 40.59px;
-  padding-right: 192.81px;
 }
 
 .source-section-docs-view-all {

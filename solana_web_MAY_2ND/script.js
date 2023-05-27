@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
       theme: "Core Documentation",
       info: "The official Solana documentation on developing, validators, SPL tokens, wallets and more.",
     },
-    {
-      theme: "Core Documentation",
-      info: "The official Solana documentation on developing, validators, SPL tokens, wallets and more.",
-    },
 
     {
       theme: "Solana Cookbook",
