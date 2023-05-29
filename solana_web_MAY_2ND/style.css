@@ -4,13 +4,6 @@
   border: 0;
 }
 
-/* nav,
-footer,
-header,
-aside {
-  display: block;
-} */
-
 ul li {
   list-style: none;
 }
@@ -36,17 +29,17 @@ a {
   flex: 1 1 auto;
 }
 
-/* .header {
-  background: linear-gradient(#0047ff -13.37%, #00bcd4 109.53%);
-} */
-
 .header-row {
+  width: 1255.66px;
   height: 37px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-content {
   display: flex;
-  font-family: Roboto;
+  justify-content: center;
+  font-family: "Roboto";
   font-style: normal;
   font-size: 17px;
   font-weight: 400;
@@ -59,7 +52,6 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  padding-left: 630px;
 }
 
 .nav {
@@ -68,8 +60,8 @@ a {
 
 .nav-row {
   display: flex;
+  width: 1255.66px;
   height: 67px;
-  justify-content: flex-start;
 }
 
 .nav-solana-image {
@@ -146,7 +138,7 @@ a {
 }
 
 .developer-btn a {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 15px;
   font-weight: 400;
   text-align: center;
@@ -206,6 +198,11 @@ a {
   height: 28px;
   width: 924.19px;
 }
+
+.developer-content h4.get-started {
+  padding-top: 3px;
+}
+
 .developer-image {
   display: flex;
 }
@@ -525,12 +522,7 @@ a {
 }
 
 .source-section {
-  background-color: #1e1e1e;
-}
-
-.source-section .container {
-  display: flex;
-  /* flex-direction: column; */
+  background: rgba(25, 22, 28, 1);
 }
 
 .source-info-row {
@@ -538,7 +530,6 @@ a {
   padding-top: 76px;
   width: 1084.97px;
   height: 811px;
-  background: linear-gradient(180deg, #19161c 0%, #000000 100%);
 }
 
 .source-info-row h2,
@@ -567,14 +558,16 @@ h4 {
   font-size: 20px;
   padding-top: 3px;
 }
-/* 
-#source-container {
+
+.source-section-docs {
   display: flex;
   flex-direction: row;
-} */
+  flex-wrap: wrap;
+  width: 1084.96px;
+}
+
 .docs-info {
   max-width: 503px;
-  /* padding-top: 29.41px; */
 }
 
 .source-title-btn {
@@ -583,7 +576,6 @@ h4 {
   justify-content: space-between;
   align-items: center;
   width: 522.76px;
-  /* row-gap: 192.81; */
 }
 
 .source-section-docs {
@@ -593,7 +585,6 @@ h4 {
 }
 
 .source-section-docs-title {
-  /* display: inline-block; */
   font-size: 32px;
   padding-top: 50px;
   padding-bottom: 40.59px;
@@ -603,10 +594,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   font-size: 15px;
-  /* padding-top: 48px;
-  padding-bottom: 30.59px; */
   box-sizing: border-box;
   border: 1px solid #ffffff;
   width: 147.95px;
@@ -615,7 +603,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.btn-arrow45-source img {
+.btn-arrow45 img {
   margin-left: 16.76px;
   align-items: center;
 }
@@ -625,7 +613,80 @@ h4 {
   width: 522.76px;
   height: 1px;
   padding-bottom: 29.41px;
-  /* margin-top: 77px; */
+}
+
+.solana-changelog-title {
+  font-size: 39px;
+  padding-top: 138px;
+}
+
+.solana-changelog-info h4 {
+  padding-top: 29px;
+}
+
+.solana-changelog-info h4 {
+  padding-top: 29px;
+}
+
+.solana-changelog-info a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.changelog-latest-episode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  width: 198.25px;
+  height: 24px;
+  border-radius: 24px;
+  text-transform: uppercase;
+  margin-top: 57px;
+}
+
+.latest-episode-btn img {
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+  color: rgb(202, 102, 40);
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+.changelog-block {
+  position: relative;
+  top: 136px;
+}
+
+.changelog-image img {
+  box-sizing: border-box;
+  width: 522.76px;
+  height: 303px;
+}
+
+.changelog-btn {
+  position: absolute;
+  left: 218px;
+  top: 200.59px;
+}
+
+.changelog-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: rgba(20, 241, 149, 1);
+  border: 1px solid #000000;
+  width: 126.25px;
+  height: 42px;
+  border-radius: 24px;
+  text-transform: uppercase;
 }
 
 .update-evenMore-section {
@@ -726,7 +787,7 @@ h4 {
   width: 61px;
   height: 20px;
 
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 15px;
   line-height: 20px;
   font-weight: 600;
@@ -742,7 +803,7 @@ h4 {
   background: #14f195;
   border: 1px solid #000000;
   border-radius: 800px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 15px;
   line-height: 20px;
   color: #000000;
@@ -754,7 +815,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
@@ -773,7 +834,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
